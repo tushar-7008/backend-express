@@ -1,0 +1,27 @@
+{
+  "name": "mongo-learn-chakshu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write \"src/**/*.js\"",
+    "format:check": "prettier --check \"src/**/*.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.5.0",
+    "node": "^24.15.0",
+    "validator": "^13.15.35"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.3"
+  }
+}
